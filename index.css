@@ -398,8 +398,12 @@ a {
     }
 
     /* Images: Set to full width and auto height */
-    .gavel-pic, .practice-pic, .founder-image {
+    .gavel-pic, .practice-pic{
         width: 100%;
+        height: auto;
+    }
+    .founder-image {
+        width: 400px;
         height: auto;
     }
 
